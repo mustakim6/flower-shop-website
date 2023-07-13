@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header related styles start */
+.header {
+
+    background-color: rgba(229, 84, 115, 0.10);
+    /* width: 500px; */
+    height: 400px;
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+
+}
+
+.head-title,
+h3,
+p,
+button {
+    margin-bottom: 6px;
+}
+
+.title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    width: 300px;
+    padding: 100px 90px 3px 0;
+
+}
+
+.head-description {
+    width: 450px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.btn-primary {
+    border-radius: 6px;
+    background: #E55473;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+    margin-top: 6px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.head-flower {
+
+    padding: 35px 0 0 60px;
+    
+}
+
+/* header related styles end */
