@@ -167,24 +167,49 @@ button {
 
 .section3 {
     display: flex;
+    justify-content: space-between;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    height: 310px;
+    margin-bottom: 50px;
 }
 
-.deals-title{
+.deals {
+    
+    /* background-color: aqua; */
+    padding: 90px 60px 40px 130px;
+
+
+}
+
+.deals-title {
     text-align: center;
+    color: #272727;
+    font-size: 19px;
+    font-weight: 800;
 }
 
-.deals-description{
+.off{
+    color: #E55473;
+font-size: 19px;
+font-weight: 800;
+}
+
+.deals-description {
+
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    font-size: 10px;
+    width: 350px;
 }
 
-.deals{
-    align-items: center;
+#sign-up{
+    display: flex;
+  justify-content: center;
 }
 
 .rose {
-    width: 250px;
-    height: 350px;
-    flex-shrink: 0;
+    width: 200px;
+    height: 250px;
+    padding: 40px  130px 60px 50px ;
 }
