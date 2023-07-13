@@ -1,16 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 /* header related styles start */
 .header {
 
     background-color: rgba(229, 84, 115, 0.10);
-    /* width: 500px; */
     height: 400px;
     display: flex;
     padding: 0 100px;
     justify-content: space-between;
+    margin-bottom: 60px;
 
 }
 
@@ -53,7 +54,137 @@ button {
 .head-flower {
 
     padding: 35px 0 0 60px;
-    
+
 }
 
 /* header related styles end */
+
+
+/*styles of (flower-section1) start */
+
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 3px 0;
+    margin-bottom: 13px;
+
+}
+
+.section-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    width: 450px;
+    font-size: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.section-images {
+    background: #FFF;
+    display: flex;
+    margin-top: 20px 15px;
+    padding: 0 100px;
+    justify-content: space-evenly;
+
+}
+
+.section1-flower {
+    padding: 50px 20px 0;
+    border-radius: 900px 900px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 240px;
+    width: 220px;
+
+
+}
+
+.flower-name {
+    text-align: center;
+
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 6px;
+    text-decoration-line: underline;
+
+}
+
+/*styles of (flower-section1) end*/
+
+
+/* styles of section2 start */
+
+.section2 {
+    display: flex;
+    justify-content: auto;
+    margin: 40px;
+
+}
+
+.information {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 820px;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+}
+
+.information-img {
+
+    width: 60px;
+    height: 60px;
+
+    padding: 26px 35px 1px 110px;
+}
+
+
+.information-img-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 60px 25px 60px;
+}
+
+.information-img-text3 {
+    padding: 0px 60px 25px 100px;
+    color: rgba(39, 39, 39, 0.80);
+    /* text-align: center; */
+    font-size: 10px;
+    font-weight: 600;
+}
+
+/* styles of section2 end */
+
+/* styles of section2 end */
+
+.section3 {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deals-title{
+    text-align: center;
+}
+
+.deals-description{
+    text-align: center;
+}
+
+.deals{
+    align-items: center;
+}
+
+.rose {
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0;
+}
