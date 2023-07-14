@@ -275,7 +275,7 @@ button {
     background-image: url("./Flower Asset/Rectangle 9.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 
@@ -316,6 +316,18 @@ button {
 }
 /* styles of section5 end */
 
+/* video sections style start */
+.video{
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    font-size:16px;
+}
+
+/* video sections style end */
 
 /* styles of footer start */
 
